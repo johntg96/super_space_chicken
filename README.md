@@ -12,7 +12,7 @@ Dodge asteroids as you fly through space, shooting lasers out of the chickens ey
 ## Development  
   
 This game is being built with the JavaScript progamming language and the Phaser game engine.
-You can install the project by cloning this repository and then running `npm install` followed by `npm run dev`.  
+You can install the project by cloning this repository and then running `npm install` and then run the local server using `npm run dev`.  
   
 If you'd like to contribute feel free to submit a pull request and contact me via email.  
   
