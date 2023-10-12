@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "super_space_chicken.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1008,
+				"h": 186
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fly/01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 184
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 250,
+						"h": 184
+					}
+				},
+				{
+					"filename": "fly/02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 184
+					},
+					"frame": {
+						"x": 253,
+						"y": 1,
+						"w": 250,
+						"h": 184
+					}
+				},
+				{
+					"filename": "fly/03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 184
+					},
+					"frame": {
+						"x": 505,
+						"y": 1,
+						"w": 250,
+						"h": 184
+					}
+				},
+				{
+					"filename": "fly/04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 184
+					},
+					"frame": {
+						"x": 757,
+						"y": 1,
+						"w": 250,
+						"h": 184
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b684489217ea582bf9e5269c6fc09606:e0aacf56d29f06255ee39c52db4a2a1a:005e4029cfac8c447fcf94ae3765fc49$"
+	}
+}

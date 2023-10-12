@@ -8,6 +8,8 @@ const sizes = {
 
 const speedDown = 300;
 
+// https://www.codeandweb.com/texturepacker/tutorials/how-to-create-sprite-sheets-for-phaser3
+
 class GameScene extends Phaser.Scene {
   constructor() {
     super("scene-game")
@@ -18,16 +20,28 @@ class GameScene extends Phaser.Scene {
 
   preload(){
     this.load.image("bg", "/assets/space_bg.jpg")
-    this.load.image("super_space_chicken", "/assets/super_space_chicken_smallest.png")
+    // this.load.image("super_space_chicken", "/assets/super_space_chicken_smallest.png")
+
+    this.load.multiatlas("super_space_chicken", "/assets/spritesheets/super_space_chicken.json", "/assets/spritesheets")
   }
   create(){
     this.add.image(0, 0, "bg").setOrigin(0, 0)
-    this.player = this.physics.add.image(20, sizes.height / 2, "super_space_chicken").setOrigin(0, 0)
+    this.player = this.physics.add.sprite(20, sizes.height / 2, "super_space_chicken").setOrigin(0, 0)
     this.player.setImmovable(true)
     this.player.body.allowGravity = false
     this.player.setCollideWorldBounds(true)
 
     this.cursor = this.input.keyboard.createCursorKeys()
+
+    const frameNames = this.anims.generateFrameNames("super_space_chicken", {
+      start: 1, end: 4, zeroPad: 2,
+      prefix: 'fly/', suffix: '.png'
+    })
+
+    this.anims.create({ key: 'super_space_chicken', frames: frameNames, frameRate: 10, repeat: -1 });
+    this.player.anims.play('super_space_chicken');
+
+    
   }
   update(){
     const {up, down} = this.cursor;
