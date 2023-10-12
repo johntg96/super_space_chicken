@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --dark-color: #272727;
@@ -43,4 +45,11 @@ main {
   transform: translate(-50%, -50%);
   display: flex;
   z-index: 1;
+}
+
+.main-title {
+  font-family: 'Bungee', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
