@@ -1,10 +1,10 @@
 # Super Space Chicken  
-## A game built with Phaser.js  
+## A game being built with Phaser.js  
 
 ![super space chicken](./public/assets/images/ssc_animated.gif)
   
 Super Space Chicken originated as a doodle on my 9th grade English folder.  
-Over the years I've drawn this intergalactic flying robotic chicken doodle countless times.  
+Over the years I've drawn this intergalactic flying cyborg chicken doodle countless times.  
 Now the super space chicken is coming to a device near you!  
   
 ## General Game Concept  
