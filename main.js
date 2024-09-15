@@ -58,8 +58,8 @@ class GameScene extends Phaser.Scene {
 
 const config = {
   type: Phaser.WEBGL,
-  width: 1280,
-  height: 720,
+  width: 960,
+  height: 540,
   canvas: gameCanvas,
   physics: {
     default: "arcade",
